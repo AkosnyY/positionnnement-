@@ -1,0 +1,57 @@
+.container {
+    width: 900px;
+    aspect-ratio: 1;
+    background-color: red;
+    position: relative;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    aspect-ratio: 1;
+}
+
+.b1 {
+    background-color: blueviolet;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.b2 {
+    background-color: blue;
+    position: absolute ;
+    top: 0;
+    right: 0px ;
+}
+
+.b3 {
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.b4 {
+    background-color: antiquewhite;
+    position: absolute;
+    bottom :0; 
+    right: 0; 
+    
+
+
+
+}
+
+.b5 {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(0%,0%);
+
+
+}
